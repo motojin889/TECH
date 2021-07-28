@@ -1,0 +1,92 @@
+body{
+  font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro", "Yu Gothic Medium", "游ゴシック Medium", sans-serif;
+}
+
+header{
+  width: 100vw;
+  height: 70px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+}
+
+.header-ttl{
+  display: inline-block;
+  font-size: 25px;
+  line-height: 70px;
+  margin-left: 30px;
+  text-decoration: none;
+  color:black;
+  font-weight: bold;
+}
+
+.header-nav{
+  list-style: none;
+  margin-right: 30px;
+}
+
+.header-li{
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.header-li a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+
+.eye-catch{
+  width: 100vw;
+  height: 250px;
+  background: url(../img/mv.png) no-repeat center / cover;
+  color: white;
+  text-align: center;
+  line-height: 250px;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 70px;
+}
+
+
+
+footer{
+  width: 100vw;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+}
+
+.footer-copyright{
+  margin-left: 5%;
+  color: white;
+}
+
+.footer-nav{
+  margin-right: 3%;
+  display: flex;
+}
+
+.footer-nav-li{
+  list-style: none;
+  font-size: small;
+  color: white;
+}
+
+.footer-nav-li a{
+  text-decoration: none;
+  color: white;
+}
+
+.footer-nav-li::after{
+  content: "|";
+  display: inline-block;
+  margin: 10px;
+}
