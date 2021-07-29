@@ -39,6 +39,12 @@ header{
   font-weight: bold;
   font-size: 15px;
 }
+.header-ttl:hover{
+  opacity: 0.7;
+}
+.header-li a:hover{
+  opacity: 0.7;
+}
 
 
 
@@ -130,4 +136,8 @@ footer{
   content: "|";
   display: inline-block;
   margin: 10px;
+}
+
+.footer-nav-li a:hover{
+  opacity: 0.6;
 }
